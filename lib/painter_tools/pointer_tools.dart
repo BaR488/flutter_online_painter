@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:flutter_pain_prototype/painter_state/painter_state.dart';
-import 'package:flutter_pain_prototype/primitives/primitives.dart';
+import 'package:flutter_online_painter/painter_state/painter_state.dart';
+import 'package:flutter_online_painter/primitives/primitives.dart';
 import 'package:uuid/uuid.dart';
 
 abstract class Tool {

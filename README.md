@@ -1,4 +1,4 @@
-# flutter_pain_prototype
+# flutter_online_painter
 
 A new Flutter application.
 

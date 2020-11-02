@@ -1,6 +1,6 @@
 {
-    "name": "flutter_pain_prototype",
-    "short_name": "flutter_pain_prototype",
+    "name": "flutter_online_painter",
+    "short_name": "flutter_online_painter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_pain_prototype/painter/painter.dart';
-import 'package:flutter_pain_prototype/painter_state/painter_state.dart';
-import 'package:flutter_pain_prototype/painter_tools/pointer_tools.dart';
+import 'package:flutter_online_painter/painter/painter.dart';
+import 'package:flutter_online_painter/painter_state/painter_state.dart';
+import 'package:flutter_online_painter/painter_tools/pointer_tools.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PaintApp extends StatefulWidget {
@@ -19,6 +19,7 @@ class _PaintAppState extends State<PaintApp> {
 
   @override
   void initState() {
+    super.initState();
     firestore.collection('trash_store').doc('test').get().then((value) {
       if (value.exists) {
         state.add(PainterState.fromJson(value.data()));

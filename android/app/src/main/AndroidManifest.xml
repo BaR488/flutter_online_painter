@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.clubslane.flutter_pain_prototype">
+    package="com.clubslane.flutter_online_painter">
    <application
-        android:label="flutter_pain_prototype"
+        android:label="flutter_online_painter"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

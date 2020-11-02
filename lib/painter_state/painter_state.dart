@@ -1,7 +1,7 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_pain_prototype/primitives/primitives.dart';
+import 'package:flutter_online_painter/primitives/primitives.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'painter_state.g.dart';

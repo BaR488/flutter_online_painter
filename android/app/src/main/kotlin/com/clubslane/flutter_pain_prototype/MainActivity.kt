@@ -1,4 +1,4 @@
-package com.clubslane.flutter_pain_prototype
+package com.clubslane.flutter_online_painter
 
 import io.flutter.embedding.android.FlutterActivity
 
